@@ -9,7 +9,7 @@ Desenvolvi este projeto para solucionar o desafio de criar uma interface com um 
 ## Links
 
 - [URL-da-solução](https://github.com/Denner-94/qr-code-scaner)
-- [URL-do-site-ativo](https://codigo-qr-nine.vercel.app/)
+- [URL-do-site-ativo](https://codigo-qr-three.vercel.app/)
 
 ## Contruído com
 
