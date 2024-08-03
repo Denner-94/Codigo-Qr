@@ -6,26 +6,35 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: normal;
+    
     
 }
 /* Estilizar lista e links */
 a, li{
+    font-size: 0.9em;
+    line-height: 1.2em;
     text-decoration: none;
     list-style-type: none;
     color: #131120;
 }
+ul{
+    margin-top: 30px;
+}
 /* Estilização do corpo o projeto com background */
 body{
-  background-color: #131120;  
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;  
 }
 /* Estilizar a main + card + img */
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to top right, #6f6fa9, #131120);
+    /**background:linear-gradient(to top right, #6f6fa9, #131120);*/
+    background-color: #6f6fa9;
     background-repeat: no-repeat;
+    transition:transform(0.2);
     width: 100vw;
     height: 100vh;
 }
@@ -37,22 +46,21 @@ body{
     flex-direction: column;
     align-items: center; 
     border-radius: 24px;
-    padding: 24px 16px;
-    gap: 24px; 
+    padding: 14px;
+    gap: 20px; 
 }
 img{
     border-radius: 14px;
 }
 h1{
     font-family: "Roboto Mono", monospace;
-    font-size: 1.1em;
-    line-height: 1em;
+    font-size: 3em;
+    line-height: 1.2em;
     text-align: center;
     font-weight: 700;
 }
 p{
     text-align: center;
-    font-size: 1em;
     line-height: 1.2em;
 }
 li{

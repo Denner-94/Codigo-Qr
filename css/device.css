@@ -1,0 +1,16 @@
+@media screen and (min-width:768px) and (max-width: 992px){
+    body{
+        position: relative;
+        background-color: #ffffff;
+    }
+    .main{
+        position: absolute;
+        width: 60vw;
+        height: 80vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        background-color: #6f6fa9;
+    }
+}
